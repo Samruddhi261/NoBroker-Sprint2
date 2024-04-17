@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="129.124" tests="5" skipped="0" failures="1" errors="0">
+<testcase classname="To test the NoBroker Website" name="Buy a property from NoBroker Website" time="21.701">
+<system-out><![CDATA[
+Given User is on the homepage of NoBroker website...........................passed
+When user selects the buy option............................................passed
+And user selects the city name from the dropdown list.......................passed
+And user types the localities...............................................passed
+And User select a Full House radio button...................................passed
+And user User selects BHK type from the dropdown list.......................passed
+And User selects the property status from the dropdown list.................passed
+And User clicks on checkbox for additional features.........................passed
+And User clicks on the search button........................................passed
+Then User should see a list of properties matching the search criteria......passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the NoBroker Website" name="Posting Comments on Packers and Movers Service - Example #1.1" time="30.978">
+<system-out><![CDATA[
+Given User is on the homepage of NoBroker website...........................passed
+When User click on the Menu tab.............................................passed
+And User click on Blog option...............................................passed
+And User click on P & M option..............................................passed
+And User select one of the project..........................................passed
+And user click on Comment option............................................passed
+And User post comment with Highly recommend the vehicle shifting service in Delhi. Smooth process and customer service, made my experience hassle-free.,Pranjaliii,pranjall767@gmail.com,Packers and Movers.passed
+And User click on post comment..............................................passed
+Then User should receive a confirmation message.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the NoBroker Website" name="Transfer Home Loan" time="19.909">
+<system-out><![CDATA[
+Given User is on the homepage of NoBroker website...........................passed
+When User is on home loan page..............................................passed
+When User enter details with Name, Mobile Number, Outstanding Principal Amount and Current Interest Rate.passed
+And User select Primary Bank Account........................................passed
+And User click on submit button.............................................passed
+Then User should see Congratulation! message................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the NoBroker Website" name="Contacting NRI Parents Care Centre - Example #1.1" time="30.229">
+<system-out><![CDATA[
+Given User is on the homepage of NoBroker website...........................passed
+When User click on Menu tab.................................................passed
+And User click on the Blog option...........................................passed
+And User click on the NRI option............................................passed
+And User selects one of the project.........................................passed
+And User enter their Samruddhi..............................................passed
+And User select City and Service............................................passed
+And User enters "9234567890" and sam76@gmail.com............................passed
+And User click on Submit....................................................passed
+Then User should receive a confirmation message that Thanks for your Response.passed
+]]></system-out>
+</testcase>
+<testcase classname="To test the NoBroker Website" name="User shortlists a property and checks it in the shortlist section" time="26.109">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&quot;rounded cursor-pointer bg-transparent mr-2.5 pt-0.7p pr-1.5 pb-1 pl-2 h-4.2p w-4.2p border-1 border-solid border-secondary-color&quot;])[1]&quot;}
+  (Session info: chrome=123.0.6312.123)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [088e95734c87c046e5006cef63d941c8, findElement {value=(//div[@class=&quot;rounded cursor-pointer bg-transparent mr-2.5 pt-0.7p pr-1.5 pb-1 pl-2 h-4.2p w-4.2p border-1 border-solid border-secondary-color&quot;])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.123, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56805}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56805/devtoo..., se:cdpVersion: 123.0.6312.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 088e95734c87c046e5006cef63d941c8">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class="rounded cursor-pointer bg-transparent mr-2.5 pt-0.7p pr-1.5 pb-1 pl-2 h-4.2p w-4.2p border-1 border-solid border-secondary-color"])[1]"}
+  (Session info: chrome=123.0.6312.123)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [088e95734c87c046e5006cef63d941c8, findElement {value=(//div[@class="rounded cursor-pointer bg-transparent mr-2.5 pt-0.7p pr-1.5 pb-1 pl-2 h-4.2p w-4.2p border-1 border-solid border-secondary-color"])[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.123, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56805}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56805/devtoo..., se:cdpVersion: 123.0.6312.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 088e95734c87c046e5006cef63d941c8
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source)
+	at Page.BuyPageFactory.MessageDisplayed(BuyPageFactory.java:485)
+	at StepDefinition.BuyStepDefinition.selected_property_should_be_visible_in_the_shortlist_section(BuyStepDefinition.java:279)
+	at ✽.selected property should be visible in the shortlist section(file:///C:/Users/SAMBHAGW/Desktop/Sprint2/Buy/src/test/resource/Features/Buy.feature:67)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is on the homepage of NoBroker website...........................passed
+When user first login using id and password.................................passed
+And user navigate to the Property page......................................passed
+And user clicks the wishlist option to add the property to their wishlist...passed
+And user clicks on My Dashboard and select shortlist........................passed
+And user checks their shortlisted properties in their profile...............passed
+Then selected property should be visible in the shortlist section...........failed
+]]></system-out>
+</testcase>
+</testsuite>
